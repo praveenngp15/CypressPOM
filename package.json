@@ -1,0 +1,20 @@
+{
+  "name": "cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-xpath": "^1.6.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^1.8.0",
+    "cypress": "^4.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "allure-geneate":"allure generate results --clean",
+    "allure-open":"allure open"
+  },
+  "author": "",
+  "license": "ISC"
+}
